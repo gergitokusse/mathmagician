@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Calculatore from './component/Calculatore';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         >
           Learn React
         </a>
+        <Calculatore />
       </header>
     </div>
   );

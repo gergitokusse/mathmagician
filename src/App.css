@@ -37,3 +37,44 @@
     transform: rotate(360deg);
   }
 }
+
+/* new code */
+.container {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.container input {
+  padding: 10px;
+  font-size: 24px;
+  background-color: #636161;
+  color: white;
+  text-align: end;
+}
+
+.container div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1px;
+  background-color: #636161;
+}
+
+.container div span {
+  font-size: 18px;
+  width: 24%;
+  background-color: aliceblue;
+  color: black;
+  padding: 20px 1px;
+}
+
+.container div .zero {
+  padding: 20px 0;
+  flex-grow: 2;
+}
+
+.container div .opration {
+  background-color: #be4c2f;
+}
