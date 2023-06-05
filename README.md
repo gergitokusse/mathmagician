@@ -80,6 +80,7 @@ After you're finished please remove all the comments and instructions!
 
 
 - **[Project setup only]**
+- **[Claculator layout and its button]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
