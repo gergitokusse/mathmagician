@@ -1,21 +1,12 @@
-import React from 'react';
-import MyButtons from './CalculatoreButtons';
-// import calculate from '../logic/calculate';
+import MyButtons, { Qutes } from './CalculatoreButtons';
 
-class Mycalculator extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-    };
-  }
-
-  render() {
-    return (
-      <div className="container">
-        <MyButtons />
-      </div>
-    );
-  }
+function Mycalculator() {
+  return (
+    <div className="container">
+      <MyButtons />
+      <Qutes />
+    </div>
+  );
 }
 
 export default Mycalculator;

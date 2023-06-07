@@ -54,3 +54,16 @@
 .container div .opration {
   background-color: #ec930c;
 }
+
+.error {
+  padding: 20px;
+  width: 100%;
+  color: red;
+}
+
+ul li {
+  padding: 20px;
+  list-style: none;
+  background-color: #a39e9e;
+  border-radius: 10px;
+}
