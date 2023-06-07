@@ -19,29 +19,32 @@
   flex-direction: column;
 }
 
-.container input {
-  padding: 10px;
+.container .calbutton {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #a39e9e;
+}
+
+.container .calbutton .type-area {
+  width: 100%;
+  padding: 17px;
   font-size: 24px;
   background-color: #969292;
   color: white;
   text-align: end;
 }
 
-.container div {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  background-color: #a39e9e;
-}
-
-.container div span {
+.container div span,
+ .container div .btn {
   border: 1px solid #dfdddd;
   font-size: 20px;
-  width: 24%;
+  width: 25%;
   background-color: aliceblue;
   color: black;
-  padding: 20px 1px;
+  padding: 20px 2px;
+  cursor: pointer;
 }
 
 .container div .zero {
