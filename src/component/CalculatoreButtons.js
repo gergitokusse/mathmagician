@@ -55,4 +55,70 @@ const MyButtons = () => {
   );
 };
 
+export function Qutes() {
+  const api = 'https://api.api-ninjas.com/v1/quotes?category=happiness';
+  const [data, setData] = useState([]);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(false);
+
+  useEffect(() => {
+    const fechData = async () => {
+      setLoading(true);
+      try {
+        const response = await fetch(api, {
+          method: 'GET',
+          headers: {
+            'Content-Type': 'application/json',
+            'X-Api-Key': 'TMP3+UyJ0pk7Ip/fCXRNbw==CnFZdyifLuqfM7I4',
+          },
+        });
+        const mydata = await response.json();
+        setData(mydata);
+      } catch (error) {
+        setError(true);
+      }
+      setLoading(false);
+    };
+    fechData();
+  }, []);
+
+  if (error) {
+    return (
+      <div className="error">
+        Sorry, Something went wrong!
+        {error.message}
+      </div>
+    );
+  }
+  if (loading) return <div className="loading">Wait moment it is Loading...</div>;
+
+  return (
+    <ul>
+      {data.map((item) => (
+        <li key="{item.catagory}">{item.quote}</li>
+      ))}
+    </ul>
+  );
+}
+
+export function API() {
+  const [data, setData] = useState([]);
+  useEffect(() => {
+    const fetchData = async () => {
+      const res = await fetch('https://jsonplaceholder.typicode.com/todos');
+      const json = await res.json();
+      setData(json);
+    };
+    fetchData();
+  }, [setData]);
+
+  return (
+    <ul>
+      {data.map((item) => (
+        <li key={item.id}>{item.title}</li>
+      ))}
+    </ul>
+  );
+}
+
 export default MyButtons;
