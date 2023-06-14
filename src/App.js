@@ -9,18 +9,12 @@ import Home from './component/home';
 function App() {
   return (
     <div className="App-header">
-      <Navigation />
       <BrowserRouter>
+        <Navigation />
         <Routes>
-          <Route path="/Home">
-            <Home />
-          </Route>
-          <Route path="/Calculatore">
-            <Mycalculator />
-          </Route>
-          <Route path="/Quete">
-            <Qutes />
-          </Route>
+          <Route path="/" element={<Home />} />
+          <Route path="/Calculatore" element={<Mycalculator />} />
+          <Route path="/Quete" element={<Qutes />} />
         </Routes>
       </BrowserRouter>
     </div>

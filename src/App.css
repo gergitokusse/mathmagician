@@ -1,8 +1,8 @@
 .App-header {
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   font-size: calc(10px + 2vmin);
+  padding: 20px;
 }
 
 /* new code */
@@ -56,6 +56,11 @@
   color: red;
 }
 
+.loading {
+  padding: 20px;
+  color: green;
+}
+
 .container ul li {
   padding: 20px;
   list-style: none;
@@ -64,24 +69,23 @@
 }
 
 .navigation {
-  border: 1px solid #969292;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 100%;
   padding: 0 25px;
+  border-bottom: 1px solid #969292;
 }
 
 .navigation ul {
   display: flex;
   flex-direction: row;
   gap: 15px;
-  padding: 0 45px;
+  padding: 0 25px;
   color: #1e0fe9;
 }
 
 .navigation ul li {
-  padding: 1px 25px;
+  padding: 0 25px;
   cursor: pointer;
   list-style: none;
   border-right: 1px solid #a39e9e;
@@ -94,4 +98,3 @@
 .navigation ul li:hover {
   text-decoration: underline;
 }
-

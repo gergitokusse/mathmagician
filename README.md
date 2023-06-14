@@ -1,32 +1,6 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
 
   <h3><b>Math Magician</b></h3>
 
@@ -70,6 +44,8 @@ After you're finished please remove all the comments and instructions!
   <summary>Client</summary>
   <ul>
     <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="">HTML</a></li>
+    <li><a href="https://reactjs.org/">Css</a></li>
   </ul>
 </details>
 
@@ -79,17 +55,14 @@ After you're finished please remove all the comments and instructions!
 ### Key Features <a name="key-features"></a>
 
 
-- **[Project setup only]**
+- **[Project setup ]**
 - **[Claculator layout and its button]**
+- **[All features of the calculator operations]**
+- **[React Routes]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
-
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
@@ -100,14 +73,6 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need accress the projects reposiry from github [here](https://github.com/gergitokusse/mathmagician/)
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
 
 ### Setup
 
@@ -123,7 +88,7 @@ Clone this repository to your desired folder:
 
 ### Install
 
-Install this project with:
+To nstall this project's dependency:-
 
 
 ```sh
@@ -138,7 +103,7 @@ To run the project, execute the following command:
 
 
 ```sh
-  npm start
+  npm run start
 ```
 -
 
@@ -170,10 +135,7 @@ To run tests, run the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Add calculator UI]**
-- [ ] **[Adding Header]**
-- [ ] **[Adding footer]**
-- [ ] **[Add calculator features]**
+- [ ] **[Styling the page to make it atteractive]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

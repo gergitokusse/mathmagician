@@ -90,7 +90,7 @@ export function Qutes() {
       </div>
     );
   }
-  if (loading) return <div className="loading">Wait moment it is Loading...</div>;
+  if (loading) return <div className="loading"> Pls wait moment it is Loading... </div>;
 
   return (
     <ul>
