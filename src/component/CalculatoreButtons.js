@@ -27,7 +27,7 @@ const MyButtons = () => {
   }, [total, next, operation]);
   return (
     <div className="calbutton">
-      <div className="type-area">
+      <div className="type-area" data-testid="type-area">
         {total || 0}
         { operation }
         { next }
