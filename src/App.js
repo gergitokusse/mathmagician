@@ -1,5 +1,4 @@
 import './App.css';
-// eslint-disable-next-line
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Mycalculator from './component/Calculatore';
 import Navigation from './component/Navigation';
