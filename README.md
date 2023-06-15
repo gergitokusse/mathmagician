@@ -118,6 +118,10 @@ To run tests, run the following command:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+# 🎯 Live demo
+
+🚴‍♂️ To get Live demo click [here](https://mathimagician.onrender.com/)
+
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
