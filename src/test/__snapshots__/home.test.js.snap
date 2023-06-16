@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Home Component Text content testing 1`] = `
+<h1>
+  Welcome to Our Page
+</h1>
+`;

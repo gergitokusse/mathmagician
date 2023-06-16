@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Calculatore Component Test % btn on calculatore 1`] = `
+<button
+  class="btn"
+  type="button"
+>
+  %
+</button>
+`;
+
+exports[`Test Calculatore Component Test = btn on calculatore 1`] = `
+<button
+  class="btn opration"
+  type="button"
+>
+  =
+</button>
+`;
+
+exports[`Test Calculatore Component Test 1 btn on calculatore 1`] = `
+<button
+  class="btn"
+  type="button"
+>
+  1
+</button>
+`;
+
+exports[`Test Calculatore Component Test 2 btn on calculatore 1`] = `
+<button
+  class="btn"
+  type="button"
+>
+  2
+</button>
+`;
+
+exports[`Test Calculatore Component Test 3 btn on calculatore 1`] = `
+<button
+  class="btn"
+  type="button"
+>
+  3
+</button>
+`;
+
+exports[`Test Calculatore Component Test 4 btn on calculatore 1`] = `
+<button
+  class="btn"
+  type="button"
+>
+  4
+</button>
+`;
+
+exports[`Test Calculatore Component Test 5 btn on calculatore 1`] = `
+<button
+  class="btn"
+  type="button"
+>
+  5
+</button>
+`;
+
+exports[`Test Calculatore Component Test 6 btn on calculatore 1`] = `
+<button
+  class="btn"
+  type="button"
+>
+  6
+</button>
+`;
+
+exports[`Test Calculatore Component Test 7 btn on calculatore 1`] = `
+<button
+  class="btn"
+  type="button"
+>
+  7
+</button>
+`;
+
+exports[`Test Calculatore Component Test 8 btn on calculatore 1`] = `
+<button
+  class="btn"
+  type="button"
+>
+  8
+</button>
+`;
+
+exports[`Test Calculatore Component Test 9 btn on calculatore 1`] = `
+<button
+  class="btn"
+  type="button"
+>
+  9
+</button>
+`;
+
+exports[`Test Calculatore Component Test AC btn on calculatore 1`] = `
+<button
+  class="btn"
+  type="button"
+>
+  AC
+</button>
+`;
+
+exports[`Test Calculatore Component Test text on Calculator Component 1`] = `
+<h1>
+  Letus do same think new
+</h1>
+`;
+
+exports[`Test Calculatore Component Test x btn on calculatore 1`] = `
+<button
+  class="btn opration"
+  type="button"
+>
+  x
+</button>
+`;
+
+exports[`Test Calculatore Component Test ÷ btn on calculatore 1`] = `
+<button
+  class="btn opration"
+  type="button"
+>
+  ÷
+</button>
+`;
+
+exports[`Test Home Component Text content testing 1`] = `
+<h1>
+  Welcome to Our Page
+</h1>
+`;
+
+exports[`Test Navigation Component Text content testing 1`] = `
+<div
+  class="loading"
+>
+   Pls wait moment it is Loading... 
+</div>
+`;
