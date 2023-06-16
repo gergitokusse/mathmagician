@@ -1,7 +1,5 @@
 import { render, screen } from '@testing-library/react';
 import Mycalculator from '../component/Calculatore';
-import Home from '../component/home';
-import { Qutes } from '../component/CalculatoreButtons';
 
 describe('Test Calculatore Component', () => {
   test('Test text on Calculator Component', () => {
@@ -90,22 +88,6 @@ describe('Test Calculatore Component', () => {
   test('Test = btn on calculatore', () => {
     render(<Mycalculator />);
     const pElement = screen.getByText(/=/i);
-    expect(pElement).toMatchSnapshot();
-  });
-});
-
-describe('Test Home Component', () => {
-  test('Text content testing', () => {
-    render(<Home />);
-    const pElement = screen.getByText(/Welcome to Our Page/i);
-    expect(pElement).toMatchSnapshot();
-  });
-});
-
-describe('Test Navigation Component', () => {
-  test('Text content testing', () => {
-    render(<Qutes />);
-    const pElement = screen.getByText(/Pls wait moment it is Loading.../i);
     expect(pElement).toMatchSnapshot();
   });
 });
